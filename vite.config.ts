@@ -1,11 +1,10 @@
-import { defineConfig, configDefaults } from 'vitest/config'
 import react from '@vitejs/plugin-react-swc'
-import svgr from 'vite-plugin-svgr'
 import tsconfigPath from 'vite-tsconfig-paths'
+import { configDefaults, defineConfig } from 'vitest/config'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(), svgr(), tsconfigPath()],
+  plugins: [react(), tsconfigPath()],
   test: {
     environment: 'jsdom',
     globals: true,

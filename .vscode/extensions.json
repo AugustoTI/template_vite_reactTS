@@ -1,9 +1,11 @@
 {
   "recommendations": [
-    "editorconfig.editorconfig",
-    "mikestead.dotenv",
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
-    "yoavbls.pretty-ts-errors"
+    "editorconfig.editorconfig",
+    "yoavbls.pretty-ts-errors",
+    "mikestead.dotenv",
+    "bradlc.vscode-tailwindcss",
+    "vunguyentuan.vscode-postcss"
   ]
 }
